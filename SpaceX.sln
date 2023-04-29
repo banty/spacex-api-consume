@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceX.Api", "SpaceX.Api\Sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceX.Api.Tests", "SpaceX.Api.Tests\SpaceX.Api.Tests.csproj", "{5BFE5310-B1A7-42F8-AA89-46AC26A9E778}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{07D9D093-438D-4A11-9542-0AB2FCECFDF5}"
+	ProjectSection(SolutionItems) = preProject
+		launchdata.json = launchdata.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
