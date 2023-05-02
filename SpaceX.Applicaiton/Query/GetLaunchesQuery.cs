@@ -4,9 +4,9 @@ using SpaceX.Domain;
 
 namespace SpaceX.Applicaiton.Query
 {
-	public class SpacexAllLaunchesQuery : IRequest<List<Launch>>
+	public class GetLaunchesQuery : IRequest<List<Launch>>
 	{
-		public SpacexAllLaunchesQuery(string filter)
+		public GetLaunchesQuery(string filter="")
 		{
             Filter = filter;
         }

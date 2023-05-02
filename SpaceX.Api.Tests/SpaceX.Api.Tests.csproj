@@ -19,6 +19,13 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Moq" Version="4.18.4" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="FluentAssertions" Version="6.11.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SpaceX.Api\SpaceX.Api.csproj" />
+    <ProjectReference Include="..\SpaceX.Applicaiton\SpaceX.Applicaiton.csproj" />
+  </ItemGroup>
 </Project>
