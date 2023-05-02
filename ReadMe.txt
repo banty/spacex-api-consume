@@ -14,7 +14,8 @@ To run the backend
 2. Frontend
   To run frontend
   1. navigate to spacex-front
-  2. run the follwoing command
+  2. npm install
+  3. run the follwoing command
       npm run dev
 ##How to use the front end   
  1. The frontend project consumes API both from spacex
