@@ -1,6 +1,8 @@
 
 
 export  const getUrl=  (api_type:string)=>   
-(api_type === 'remote') ? process.env.REACT_APP_REMOTE_SPACEX_URL:
-    process.env.REACT_APP_LOCAL_SPACEX_URL;
-                                                                       
+(api_type === 'remote') ? "https://api.spacexdata.com/v3/launches":
+"http://localhost:5028/api/Launch";
+                                               
+    
+   
