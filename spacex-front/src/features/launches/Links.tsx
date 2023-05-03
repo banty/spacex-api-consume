@@ -1,4 +1,3 @@
-import React from 'react'
 import { Links } from './types'
 
 function DisplayLinks({links}: {links:Links | undefined} ) {
